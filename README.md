@@ -11,26 +11,25 @@ folder organization.
 
 ```
 ├── CONTRIBUTORS.md
+├── .gitignore
 ├── LICENSE.md
 ├── pom.xml
 ├── README.md
-└── src
-    ├── main
-    │   ├── java
-    │   │   └── io
-    │   │       └── groupId
-    │   │           └── Application.java
-    │   └── resources
-    │       └── io
-    │           └── groupId
-    └── test
-        ├── java
-        │   └── io
-        │       └── groupId
-        │           └── ApplicationTest.java
-        └── resources
-            └── io
-                └── groupId
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── io
+│   │   │       └── groupId
+│   │   │           └── Application.java
+│   │   └── resources
+│   └── test
+│       ├── java
+│       │   └── io
+│       │       └── groupId
+│       │           └── ApplicationTest.java
+│       └── resources
+└── .travis.yml
+
 ```
 
 ## Dependencies
