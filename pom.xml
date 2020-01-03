@@ -4,7 +4,7 @@
 
     <groupId>com.github.kmos</groupId>
     <artifactId>basestart</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <packaging>maven-archetype</packaging>
     <url>https://www.mosfet.io</url>
@@ -37,7 +37,7 @@
         <connection>scm:git:git@github.com:kmos/basestart.git</connection>
         <url>scm:git:git@github.com:kmos/basestart.git</url>
         <developerConnection>scm:git:git@github.com:kmos/basestart.git</developerConnection>
-      <tag>1.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
