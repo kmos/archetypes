@@ -3,41 +3,23 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.github.kmos</groupId>
-    <artifactId>basestart</artifactId>
+    <artifactId>archetypes</artifactId>
     <version>1.2.0-SNAPSHOT</version>
 
-    <packaging>maven-archetype</packaging>
+    <packaging>pom</packaging>
     <url>https://www.mosfet.io</url>
 
-    <build>
-        <extensions>
-            <extension>
-                <groupId>org.apache.maven.archetype</groupId>
-                <artifactId>archetype-packaging</artifactId>
-                <version>3.0.1</version>
-            </extension>
-        </extensions>
-        <pluginManagement>
-            <plugins>
-                <plugin>
-                    <artifactId>maven-resources-plugin</artifactId>
-                    <version>3.0.2</version>
-                    <configuration>
-                        <!-- Required so that .gitignore gets included in archetypes -->
-                        <!-- see https://issues.apache.org/jira/browse/MRESOURCES-190 -->
-                        <addDefaultExcludes>false</addDefaultExcludes>
-                    </configuration>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-    </build>
-
+    <modules>
+        <module>junit5</module>
+        <module>spring-boot</module>
+        <module>kotlin</module>
+    </modules>
 
     <scm>
         <connection>scm:git:git@github.com:kmos/basestart.git</connection>
         <url>scm:git:git@github.com:kmos/basestart.git</url>
         <developerConnection>scm:git:git@github.com:kmos/basestart.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <tag>HEAD</tag>
+    </scm>
 
 </project>
