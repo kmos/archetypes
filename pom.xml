@@ -16,9 +16,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:git@github.com:kmos/archetypes.git</connection>
-        <url>scm:git:git@github.com:kmos/archetypes.git</url>
-        <developerConnection>scm:git:git@github.com:kmos/archetypes.git</developerConnection>
+        <connection>scm:git:https://github.com/kmos/archetypes.git</connection>
+        <url>scm:git:https://github.com/kmos/archetypes.git</url>
+        <developerConnection>scm:git:https://github.com/kmos/archetypes.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
