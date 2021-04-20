@@ -5,11 +5,11 @@
     <parent>
         <groupId>com.github.kmos</groupId>
         <artifactId>archetypes</artifactId>
-        <version>1.2.2</version>
+        <version>1.2.3-SNAPSHOT</version>
     </parent>
 
     <artifactId>spring-boot</artifactId>
-    <version>1.2.2</version>
+    <version>1.2.3-SNAPSHOT</version>
 
 
 </project>
