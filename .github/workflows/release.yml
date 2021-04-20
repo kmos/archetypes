@@ -28,4 +28,4 @@ jobs:
           git config user.email "actions@github.com"
           git config user.name "GitHub Actions"
       - name: Maven Release
-        run: mvn release:prepare release:perform -B -Darguments="-Dmaven.deploy.skip=true" -DreleaseVersion=${{ github.event.inputs.releaseVersion }} -DdevelopmentVersion=${{ github.event.inputs.developmentVersion }}
+        run: mvn release:prepare release:perform -B -Dtag=${{ github.event.inputs.releaseVersion }} -Darguments="-Dmaven.deploy.skip=true" -DreleaseVersion=${{ github.event.inputs.releaseVersion }} -DdevelopmentVersion=${{ github.event.inputs.developmentVersion }}
