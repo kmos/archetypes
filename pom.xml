@@ -4,7 +4,7 @@
 
     <groupId>com.github.kmos</groupId>
     <artifactId>archetypes</artifactId>
-    <version>1.2.0-SNAPSHOT</version>
+    <version>1.2.0</version>
 
     <packaging>pom</packaging>
     <url>https://www.mosfet.io</url>
@@ -19,7 +19,7 @@
         <connection>scm:git:git@github.com:kmos/archetypes.git</connection>
         <url>scm:git:git@github.com:kmos/archetypes.git</url>
         <developerConnection>scm:git:git@github.com:kmos/archetypes.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>archetypes-1.2.0</tag>
     </scm>
 
 </project>

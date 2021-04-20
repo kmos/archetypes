@@ -7,7 +7,7 @@
     <parent>
         <artifactId>archetypes</artifactId>
         <groupId>com.github.kmos</groupId>
-        <version>1.2.0-SNAPSHOT</version>
+        <version>1.2.0</version>
     </parent>
 
     <packaging>maven-archetype</packaging>
