@@ -10,7 +10,7 @@
     <packaging>jar</packaging>
 
     <name>${projectName}</name>
-    <url>http://www.mosfet.io</url>
+    <url>https://www.mosfet.io</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
