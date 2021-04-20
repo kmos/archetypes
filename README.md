@@ -1,15 +1,19 @@
 # Archetypes
 
-A series of archetypes 
+A series of very tiny archetypes
 
-## Modules
+### distribution
+
+these archetypes are distributed with [jitpack.io](https://jitpack.io/)
+
+### Archetypes
 
 - junit5
 - kotlin
 - spring-boot
 
 
-## zsh configuration
+### zsh configuration
 
 ```shell
 
